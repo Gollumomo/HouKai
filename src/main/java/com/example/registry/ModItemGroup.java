@@ -11,7 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup crystall_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup CRYSTALL = Registry.register(Registries.ITEM_GROUP,
             new Identifier(HouKai.MOD_ID, "crystall"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.crystall"))
                     .icon(() -> new ItemStack(ModItems.CRYSTAL)).entries((displayContext, entries) -> {
