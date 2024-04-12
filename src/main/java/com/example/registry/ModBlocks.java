@@ -1,7 +1,6 @@
 package com.example.registry;
 
 import com.example.HouKai;
-import com.example.mixin.ExampleMixin;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
